@@ -1,0 +1,496 @@
+{
+  "_note": "SYNTHETIC sample data for demo/tests \u2014 NOT real victims. Use `leaklens report --live`.",
+  "snapshotDate": "2026-06-15",
+  "victims": [
+    {
+      "name": "victim-00",
+      "group": "Qilin",
+      "sector": "Manufacturing",
+      "country": "US",
+      "date": "2026-05-01"
+    },
+    {
+      "name": "victim-01",
+      "group": "Qilin",
+      "sector": "Healthcare",
+      "country": "US",
+      "date": "2026-02-02"
+    },
+    {
+      "name": "victim-02",
+      "group": "Qilin",
+      "sector": "Technology",
+      "country": "US",
+      "date": "2026-03-03"
+    },
+    {
+      "name": "victim-03",
+      "group": "Qilin",
+      "sector": "Construction",
+      "country": "GB",
+      "date": "2026-05-04"
+    },
+    {
+      "name": "victim-04",
+      "group": "Qilin",
+      "sector": "Education",
+      "country": "DE",
+      "date": "2026-05-05"
+    },
+    {
+      "name": "victim-05",
+      "group": "Qilin",
+      "sector": "Finance",
+      "country": "CA",
+      "date": "2026-06-06"
+    },
+    {
+      "name": "victim-06",
+      "group": "Qilin",
+      "sector": "Retail",
+      "country": "FR",
+      "date": "2026-05-07"
+    },
+    {
+      "name": "victim-07",
+      "group": "Qilin",
+      "sector": "Legal",
+      "country": "IN",
+      "date": "2026-02-08"
+    },
+    {
+      "name": "victim-08",
+      "group": "Qilin",
+      "sector": "Government",
+      "country": "AU",
+      "date": "2026-03-09"
+    },
+    {
+      "name": "victim-09",
+      "group": "Qilin",
+      "sector": "Energy",
+      "country": "IT",
+      "date": "2026-05-10"
+    },
+    {
+      "name": "victim-10",
+      "group": "Qilin",
+      "sector": "Transportation",
+      "country": "BR",
+      "date": "2026-05-11"
+    },
+    {
+      "name": "victim-11",
+      "group": "Qilin",
+      "sector": "Professional Services",
+      "country": "JP",
+      "date": "2026-06-12"
+    },
+    {
+      "name": "victim-12",
+      "group": "Qilin",
+      "sector": "Manufacturing",
+      "country": "ES",
+      "date": "2026-05-13"
+    },
+    {
+      "name": "victim-13",
+      "group": "Qilin",
+      "sector": "Healthcare",
+      "country": "US",
+      "date": "2026-02-14"
+    },
+    {
+      "name": "victim-14",
+      "group": "Qilin",
+      "sector": "Technology",
+      "country": "GB",
+      "date": "2026-03-15"
+    },
+    {
+      "name": "victim-15",
+      "group": "Qilin",
+      "sector": "Construction",
+      "country": "US",
+      "date": "2026-05-16"
+    },
+    {
+      "name": "victim-16",
+      "group": "Akira",
+      "sector": "Education",
+      "country": "US",
+      "date": "2026-05-17"
+    },
+    {
+      "name": "victim-17",
+      "group": "Akira",
+      "sector": "Finance",
+      "country": "US",
+      "date": "2026-06-18"
+    },
+    {
+      "name": "victim-18",
+      "group": "Akira",
+      "sector": "Retail",
+      "country": "GB",
+      "date": "2026-01-19"
+    },
+    {
+      "name": "victim-19",
+      "group": "Akira",
+      "sector": "Legal",
+      "country": "DE",
+      "date": "2026-02-20"
+    },
+    {
+      "name": "victim-20",
+      "group": "Akira",
+      "sector": "Government",
+      "country": "CA",
+      "date": "2026-03-21"
+    },
+    {
+      "name": "victim-21",
+      "group": "Akira",
+      "sector": "Energy",
+      "country": "FR",
+      "date": "2026-04-22"
+    },
+    {
+      "name": "victim-22",
+      "group": "Akira",
+      "sector": "Transportation",
+      "country": "IN",
+      "date": "2026-05-23"
+    },
+    {
+      "name": "victim-23",
+      "group": "Akira",
+      "sector": "Professional Services",
+      "country": "AU",
+      "date": "2026-06-24"
+    },
+    {
+      "name": "victim-24",
+      "group": "Akira",
+      "sector": "Manufacturing",
+      "country": "IT",
+      "date": "2026-01-25"
+    },
+    {
+      "name": "victim-25",
+      "group": "Akira",
+      "sector": "Healthcare",
+      "country": "BR",
+      "date": "2026-02-26"
+    },
+    {
+      "name": "victim-26",
+      "group": "Akira",
+      "sector": "Technology",
+      "country": "JP",
+      "date": "2026-03-27"
+    },
+    {
+      "name": "victim-27",
+      "group": "Akira",
+      "sector": "Construction",
+      "country": "ES",
+      "date": "2026-04-01"
+    },
+    {
+      "name": "victim-28",
+      "group": "RansomHub",
+      "sector": "Education",
+      "country": "US",
+      "date": "2026-05-02"
+    },
+    {
+      "name": "victim-29",
+      "group": "RansomHub",
+      "sector": "Finance",
+      "country": "GB",
+      "date": "2026-06-03"
+    },
+    {
+      "name": "victim-30",
+      "group": "RansomHub",
+      "sector": "Retail",
+      "country": "US",
+      "date": "2026-01-04"
+    },
+    {
+      "name": "victim-31",
+      "group": "RansomHub",
+      "sector": "Legal",
+      "country": "US",
+      "date": "2026-02-05"
+    },
+    {
+      "name": "victim-32",
+      "group": "RansomHub",
+      "sector": "Government",
+      "country": "US",
+      "date": "2026-03-06"
+    },
+    {
+      "name": "victim-33",
+      "group": "RansomHub",
+      "sector": "Energy",
+      "country": "GB",
+      "date": "2026-04-07"
+    },
+    {
+      "name": "victim-34",
+      "group": "RansomHub",
+      "sector": "Transportation",
+      "country": "DE",
+      "date": "2026-05-08"
+    },
+    {
+      "name": "victim-35",
+      "group": "RansomHub",
+      "sector": "Professional Services",
+      "country": "CA",
+      "date": "2026-06-09"
+    },
+    {
+      "name": "victim-36",
+      "group": "RansomHub",
+      "sector": "Manufacturing",
+      "country": "FR",
+      "date": "2026-01-10"
+    },
+    {
+      "name": "victim-37",
+      "group": "Play",
+      "sector": "Healthcare",
+      "country": "IN",
+      "date": "2026-02-11"
+    },
+    {
+      "name": "victim-38",
+      "group": "Play",
+      "sector": "Technology",
+      "country": "AU",
+      "date": "2026-03-12"
+    },
+    {
+      "name": "victim-39",
+      "group": "Play",
+      "sector": "Construction",
+      "country": "IT",
+      "date": "2026-04-13"
+    },
+    {
+      "name": "victim-40",
+      "group": "Play",
+      "sector": "Education",
+      "country": "BR",
+      "date": "2026-05-14"
+    },
+    {
+      "name": "victim-41",
+      "group": "Play",
+      "sector": "Finance",
+      "country": "JP",
+      "date": "2026-06-15"
+    },
+    {
+      "name": "victim-42",
+      "group": "Play",
+      "sector": "Retail",
+      "country": "ES",
+      "date": "2026-01-16"
+    },
+    {
+      "name": "victim-43",
+      "group": "Play",
+      "sector": "Legal",
+      "country": "US",
+      "date": "2026-02-17"
+    },
+    {
+      "name": "victim-44",
+      "group": "Cl0p",
+      "sector": "Government",
+      "country": "GB",
+      "date": "2026-03-18"
+    },
+    {
+      "name": "victim-45",
+      "group": "Cl0p",
+      "sector": "Energy",
+      "country": "US",
+      "date": "2026-04-19"
+    },
+    {
+      "name": "victim-46",
+      "group": "Cl0p",
+      "sector": "Transportation",
+      "country": "US",
+      "date": "2026-05-20"
+    },
+    {
+      "name": "victim-47",
+      "group": "Cl0p",
+      "sector": "Professional Services",
+      "country": "US",
+      "date": "2026-06-21"
+    },
+    {
+      "name": "victim-48",
+      "group": "Cl0p",
+      "sector": "Manufacturing",
+      "country": "GB",
+      "date": "2026-01-22"
+    },
+    {
+      "name": "victim-49",
+      "group": "Cl0p",
+      "sector": "Healthcare",
+      "country": "DE",
+      "date": "2026-02-23"
+    },
+    {
+      "name": "victim-50",
+      "group": "Medusa",
+      "sector": "Technology",
+      "country": "CA",
+      "date": "2026-03-24"
+    },
+    {
+      "name": "victim-51",
+      "group": "Medusa",
+      "sector": "Construction",
+      "country": "FR",
+      "date": "2026-04-25"
+    },
+    {
+      "name": "victim-52",
+      "group": "Medusa",
+      "sector": "Education",
+      "country": "IN",
+      "date": "2026-05-26"
+    },
+    {
+      "name": "victim-53",
+      "group": "Medusa",
+      "sector": "Finance",
+      "country": "AU",
+      "date": "2026-06-27"
+    },
+    {
+      "name": "victim-54",
+      "group": "Medusa",
+      "sector": "Retail",
+      "country": "IT",
+      "date": "2026-01-01"
+    },
+    {
+      "name": "victim-55",
+      "group": "The Gentlemen",
+      "sector": "Legal",
+      "country": "BR",
+      "date": "2026-02-02"
+    },
+    {
+      "name": "victim-56",
+      "group": "The Gentlemen",
+      "sector": "Government",
+      "country": "JP",
+      "date": "2026-03-03"
+    },
+    {
+      "name": "victim-57",
+      "group": "The Gentlemen",
+      "sector": "Energy",
+      "country": "ES",
+      "date": "2026-04-04"
+    },
+    {
+      "name": "victim-58",
+      "group": "The Gentlemen",
+      "sector": "Transportation",
+      "country": "US",
+      "date": "2026-05-05"
+    },
+    {
+      "name": "victim-59",
+      "group": "The Gentlemen",
+      "sector": "Professional Services",
+      "country": "GB",
+      "date": "2026-06-06"
+    },
+    {
+      "name": "victim-60",
+      "group": "INC Ransom",
+      "sector": "Manufacturing",
+      "country": "US",
+      "date": "2026-01-07"
+    },
+    {
+      "name": "victim-61",
+      "group": "INC Ransom",
+      "sector": "Healthcare",
+      "country": "US",
+      "date": "2026-02-08"
+    },
+    {
+      "name": "victim-62",
+      "group": "INC Ransom",
+      "sector": "Technology",
+      "country": "US",
+      "date": "2026-03-09"
+    },
+    {
+      "name": "victim-63",
+      "group": "INC Ransom",
+      "sector": "Construction",
+      "country": "GB",
+      "date": "2026-04-10"
+    },
+    {
+      "name": "victim-64",
+      "group": "BianLian",
+      "sector": "Education",
+      "country": "DE",
+      "date": "2026-05-11"
+    },
+    {
+      "name": "victim-65",
+      "group": "BianLian",
+      "sector": "Finance",
+      "country": "CA",
+      "date": "2026-06-12"
+    },
+    {
+      "name": "victim-66",
+      "group": "BianLian",
+      "sector": "Retail",
+      "country": "FR",
+      "date": "2026-01-13"
+    },
+    {
+      "name": "victim-67",
+      "group": "LockBit",
+      "sector": "Legal",
+      "country": "IN",
+      "date": "2026-02-14"
+    },
+    {
+      "name": "victim-68",
+      "group": "LockBit",
+      "sector": "Government",
+      "country": "AU",
+      "date": "2026-03-15"
+    },
+    {
+      "name": "victim-69",
+      "group": "LockBit",
+      "sector": "Energy",
+      "country": "IT",
+      "date": "2026-04-16"
+    }
+  ]
+}
