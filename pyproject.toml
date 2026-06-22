@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leaklens"
+version = "0.1.0"
+description = "Ransomware leak-site OSINT — group/sector/country trend dashboards + an optional Claude weekly intel brief."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Yamraj", email = "solankisumitt@gmail.com" }]
+keywords = [
+    "threat-intelligence",
+    "ransomware",
+    "osint",
+    "cti",
+    "leak-site",
+    "security",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+dependencies = []  # stdlib-only; live fetch uses urllib
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+leaklens = "leaklens.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YAMRAJ13y/leaklens"
+Issues = "https://github.com/YAMRAJ13y/leaklens/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+leaklens = ["data/*.json"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
+"scripts/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
